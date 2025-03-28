@@ -1,0 +1,6 @@
+name: athena-redshift-pulumi
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
