@@ -1,3 +1,9 @@
 encryptionsalt: v1:SCdHCEFzIv4=:v1:ODFNaCS8w3Okc+Br:WfJuhCmfitTBiD36WWRQ9PmY+djHQA==
 config:
+  athena-redshift-pulumi:default_redshift_connection: jdbc:redshift://redshift-cluster-1.xxxxxx.eu-central-1.redshift.amazonaws.com:5439/devq
+  athena-redshift-pulumi:name: redshift-connector
+  athena-redshift-pulumi:region: eu-central-1
+  athena-redshift-pulumi:sg_ids: sg-abc
+  athena-redshift-pulumi:spill_bucket_retention_days: "7"
+  athena-redshift-pulumi:subnet_ids: subnet-abc,subnet-def
   aws:region: eu-central-1
